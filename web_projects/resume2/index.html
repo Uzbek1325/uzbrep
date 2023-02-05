@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+</head>
+<body>
+  <h1>Сайт</h1>
+  <nav>
+    <div id="nav-logo" class="nav-section">
+      <a href="#">
+        <i class="fa-solid fa-poo"></i>
+      </a>
+    </div>
+
+    <div id="nav-links" class="nav-section">
+      <a href="#">About</a>
+      <a href="#">Works</a>
+    </div>
+
+    <div id="nav-social" class="nav-section">
+      <a href="#">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+    </div> 
+
+    <div id="nav-log" class="nav-section">
+      <a href="#">Log in</a>
+    </div>
+  </nav>
+   
+  <div class="signUpPage">    
+    <h2>Sign up</h2>
+    <form action="e-mail.js">
+      <label for="e-mail">e-mail:</label>
+      <input type="text" id="e-mail">
+    </form>
+    <form action="password.js">
+      <label for="password">password:</label>
+      <input type="text" id="password">
+    </form>
+
+    <button id="submitButton" onclick="signUpClose()">
+      <p>Submit</p>
+    </button> 
+
+    <button id="closeButton" onclick="signUpClose()">
+      <i class="fa-solid fa-x"></i>
+    </button>
+     
+  </div>
+
+  <script src="main.js"></script>
+  <script src="https://kit.fontawesome.com/f78c2a0a7c.js" crossorigin="anonymous"></script>
+</body>
+</html>
